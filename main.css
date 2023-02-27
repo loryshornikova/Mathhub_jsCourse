@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+header{
+    background-color: lightgrey;
+    height: 50px;
+}
+
+nav{
+    border: 2px solid black;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    /* justify-content: space-evenly;*/
+    align-items: center; 
+}
+ nav > a {    
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    font-size: 20px;
+ }
+ 
+ body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ }
+
+ main { 
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+     }
+
+#math_game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px 0px 60px;
+}
+ .main_div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ } 
+
+ #title{
+    padding: 15px; 
+    width: max-content;
+   
+    }
+ 
+.my_game{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px; 
+}   
+
+.my_game img{
+    width: 350px;
+    height: 250px;
+    padding: 15px 10px 0px 10px;
+  
+}
+.my_game > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     
+}
+
+.my_game input, .my_game button {   
+    
+    margin: 5px;
+    min-height: 30px;
+}
+.my_game button {
+    width: max-content;
+    background-color: rgb(5, 193, 5);
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+.my_game input {
+    border-radius: 5px;
+}
+
+.chosen_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 10px;
+    align-items: center;
+    
+}
+.chosen_block > h2, p{
+    padding: 0 0 10px 0;
+}
+.chosen_block_container{
+    display: flex;   
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.chosen_block_container > div{
+    width:180px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: burlywood; 
+   
+}
+
+.chosen_element {
+    border: 3px solid black;
+}
+
+footer {
+    background-color: lightgray;
+    height: 50px;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    flex-shrink: 0;
+    margin: 0 0 14px 0;    
+}
