@@ -127,7 +127,7 @@ const postBlock = document.querySelector(".posts_block_container")
 
 
 fetch("https://jsonplaceholder.typicode.com/posts")
-    .then((res) => {    
+    .then((res) => {                                       //.then (res=>res.json())
         return res.json()
 
     })
